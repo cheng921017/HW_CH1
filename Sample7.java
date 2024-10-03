@@ -4,6 +4,6 @@ public class Sample7
     {
         int num;
         num = 3;
-        System.out.println("變數num的值是"+num);
+        System.out.println("變數num的值是" + num);
     }
 }
