@@ -1,5 +1,7 @@
-public class Sample12 {
-    public static void main(String[] args) {
+public class Sample12 
+{
+    public static void main(String[] args) 
+    {
         int num1 = 10;
         int num2 = 5;
 
