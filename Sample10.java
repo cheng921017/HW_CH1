@@ -2,15 +2,17 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Sample10 {
-    public static void main(String[] args) throws IOException {
+public class Sample10 
+{
+    public static void main(String[] args) throws IOException 
+    {
         System.out.println("請輸入一個整數");
 
         BufferedReader br1 = new BufferedReader(new InputStreamReader(System.in));
         String str1 = br1.readLine();
-        int number = Integer.parseInt(str1);
+        int num = Integer.parseInt(str1);
 
-        System.out.println("您輸入的數字是:" + number);
+        System.out.println("您輸入的數字是:" + num);
 
         System.out.println("請輸入字串");
 
